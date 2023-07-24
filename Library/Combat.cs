@@ -43,7 +43,7 @@ namespace Library
                 {
                     player.Life += 10;
                     Console.ForegroundColor = ConsoleColor.Green;
-                    Console.WriteLine("You have gained 10 health for killing 2 enemies!");
+                    Console.WriteLine("You have gained 10 health for killing a enemie!");
                     Console.ResetColor();
                 }
                 player.Score++;
