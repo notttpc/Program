@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DungeonLibrary
+﻿namespace DungeonLibrary
 {
     public abstract class Character
     {
@@ -87,7 +81,9 @@ namespace DungeonLibrary
         //METHODS - Monkeys
         public override string ToString()
         {
-            return $"----- {Name} -----\n" +
+            return
+                $"----- {Name} -----\n" +
+                $"Description: {Description}\n" +
                 $"Life: {Life} of {MaxLife}\n" +
                 $"Hit Chance: {HitChance}%\n" +
                 $"Block: {Block}%\n";
