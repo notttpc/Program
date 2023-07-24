@@ -17,7 +17,7 @@ namespace Library
 
                 defender.Life -= damage;
 
-                Console.ForegroundColor = ConsoleColor.Red;
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine($"{attacker.Name} hit {defender.Name} for {damage} damage!");
                 Console.ResetColor();
             }

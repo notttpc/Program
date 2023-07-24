@@ -32,7 +32,7 @@ namespace DungeonLibrary
         }
         public override string ToString()
         {
-            return $"***** {Name} *****/n" +
+            return $"***** {Name} *****\n" +
                 $"Description: {Description}\n" +
                 $"Health: {Life} of {MaxLife}\n" +
                 $"HitChance: {HitChance}\n" +

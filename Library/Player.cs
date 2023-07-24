@@ -54,11 +54,11 @@ namespace DungeonLibrary
         }
         public static Player ChoosePlayer()
         {
-            Player p1 = new Player("Ken Kaneki", Race.Ghoul, "\nA human turned ghoul with hidden abilities", 40, 10, 40, 40);
-            Player p2 = new Player("Nezuko Kamado", Race.Demon, "\nHalf human, Half Demon", 35, 20, 40, 40);
-            Player p3 = new Player("Goku", Race.Saiyan, "\nA human form with immense power", 45, 10, 40, 40);
-            Player p4 = new Player("Zephyr", Race.Draconite, "\nA human tainted with dragon blood", 30, 30, 40, 40);
-            Player p5 = new Player("Shibai Otsutsuki", Race.Celestial_Being, "\nPlanet eater", 25, 50, 40, 40);
+            Player p1 = new Player("Ken Kaneki", Race.Ghoul, "\nA human turned ghoul with hidden abilities", 50, 10, 40, 40);
+            Player p2 = new Player("Nezuko Kamado", Race.Demon, "\nHalf human, Half Demon", 45, 20, 40, 40);
+            Player p3 = new Player("Goku", Race.Saiyan, "\nA human form with immense power", 55, 10, 40, 40);
+            Player p4 = new Player("Zephyr", Race.Draconite, "\nA human tainted with dragon blood", 40, 30, 40, 40);
+            Player p5 = new Player("Shibai Otsutsuki", Race.Celestial_Being, "\nPlanet eater", 35, 50, 40, 40);
 
             List<Player> selections = new List<Player>() { p1, p2, p3, p4, p5 };
             Console.ForegroundColor = ConsoleColor.Red;
