@@ -51,7 +51,9 @@ namespace DungeonLibrary
             Shinigami shin = new Shinigami("Ryuk", "skeletal, lanky figure with pale skin and elongated limbs, dont make it mad", 45, 45, 30, 35, 9, 4, 25);
             List<Monster> monsters = new()
             {
-                titan
+                titan,
+                barb,
+                shin
             };
             int index = new Random().Next(monsters.Count);
             return monsters[index];
